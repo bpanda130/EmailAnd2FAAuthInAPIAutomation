@@ -1,0 +1,6 @@
+{
+  "ClientId": "48a1f7v8s0ihv58d6qcp34u5st",
+  "ConfirmationCode": "#(EMAIL_OTP)",
+  "Username": "#(USERNAME)",
+  "ForceAliasCreation": true
+}

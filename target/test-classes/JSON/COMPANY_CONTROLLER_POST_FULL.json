@@ -1,0 +1,4 @@
+{
+  "companyType": "#(compType)",
+  "userId": "#(userID)"
+}

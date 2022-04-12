@@ -1,0 +1,17 @@
+baseUrlAWSCognito: 'https://cognito-idp.ap-southeast-1.amazonaws.com'
+baseUrlDealcierge: 'https://api.qa.dealcierge.io'
+#baseUrlGetApi: 'http://localhost:8084'
+#baseUrlApiLayer: 'http://localhost:1031'
+#devRestProxyUrl: 'http://bifrostrp.dev.marvel.gccaws.hdb.gov.sg:8082'
+#
+#username: 'postgres'
+#password: 'postgres'
+#marvel_url: 'jdbc:postgresql://localhost:5432/MARVEL'
+#timestone_url: 'jdbc:postgresql://localhost:5432/TIMESTONE_LABEL_EXPIRY'
+#ops_url: 'jdbc:postgresql://localhost:5433/DASHBOARD'
+#DriverClassName: 'org.postgresql.Driver'
+#
+#KSQLDB_SERVER_HOST: 'localhost'
+#KSQLDB_SERVER_HOST_PORT: '8089'
+
+

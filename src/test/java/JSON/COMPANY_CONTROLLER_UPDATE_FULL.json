@@ -1,0 +1,15 @@
+{
+  "companyId": "#(companyID)",
+  "companyName": "#(COMPANY_NAME)",
+  "taxRegistrationNumber": "#(taxRegistrationNumber)",
+  "uen": "#(UEN)",
+  "user": {
+    "companyId": "#(companyID)",
+    "firstName": "#(firstName)",
+    "lastName": "#(lastName)",
+    "linkedin": "#(linkedin)",
+    "position": "#(position)",
+    "userEmail": "#(USERNAME)",
+    "userId": "#(userID)"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "companyId": "#(companyID)",
+  "companyStatus": "#(companyStatus)"
+}

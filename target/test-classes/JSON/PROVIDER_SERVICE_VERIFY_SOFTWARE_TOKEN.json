@@ -1,0 +1,5 @@
+{
+  "AccessToken": "#(accesstoken)",
+  "UserCode": "#(TOTP)",
+  "FriendlyDeviceName": "My TOTP device"
+}

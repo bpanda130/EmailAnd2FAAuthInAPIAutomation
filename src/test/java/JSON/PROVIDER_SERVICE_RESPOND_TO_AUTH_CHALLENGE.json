@@ -1,0 +1,10 @@
+{
+  "ChallengeName": "SOFTWARE_TOKEN_MFA",
+  "ChallengeResponses": {
+    "USERNAME": "#(USERNAME)",
+    "SMS_MFA_CODE": "#(TOTP)",
+    "SOFTWARE_TOKEN_MFA_CODE": "#(TOTP)"
+  },
+  "ClientId": "48a1f7v8s0ihv58d6qcp34u5st",
+  "Session": "#(sessionID)"
+}

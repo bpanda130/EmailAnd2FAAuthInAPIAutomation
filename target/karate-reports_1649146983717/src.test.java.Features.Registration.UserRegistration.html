@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.Features.Registration.UserRegistration</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-05 04:09:31 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:59]"><span>[1.1:59]</span> <span>Validate Seller Registration</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/Features/Registration/UserRegistration.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Buyer and Seller Registration Flow</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:59]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:59]</span>
+                <span class="scenario-name">Validate Seller Registration</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>6210</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:59]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlAWSCognito</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">16:09:24.686 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def UserAuthenticationUtils = Java.type(&#39;utils.UserAuthenticationUtils&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userAuthLib = new UserAuthenticationUtils()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">49</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ServiceSignUp = read(&#39;classpath:/JSON/PROVIDER_SERVICE_SIGNUP.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Host = &quot;cognito-idp.ap-southeast-1.amazonaws.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-User-Agent = &quot;aws-amplify/5.0.4 js&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/x-amz-json-1.1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-Target = &quot;AWSCognitoIdentityProviderService.SignUp&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Origin = &quot;https://qa.dealcierge.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Referer = &quot;https://qa.dealcierge.io/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def USERNAME = &quot;pegasusapiseller@gmail.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def PASSWORD = &quot;Test@1234&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def COMPANY_TYPE = &quot;s&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def compType = COMPANY_TYPE == &#39;s&#39; ? &#39;Seller&#39; : &#39;Buyer&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request ServiceSignUp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">817</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.21">16:09:25.207 request:
+1 &gt; POST https://cognito-idp.ap-southeast-1.amazonaws.com
+1 &gt; Host: cognito-idp.ap-southeast-1.amazonaws.com
+1 &gt; X-Amz-User-Agent: aws-amplify/5.0.4 js
+1 &gt; Content-Type: application/x-amz-json-1.1; charset=UTF-8
+1 &gt; X-Amz-Target: AWSCognitoIdentityProviderService.SignUp
+1 &gt; Origin: https://qa.dealcierge.io
+1 &gt; Referer: https://qa.dealcierge.io/
+1 &gt; Content-Length: 241
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;ClientId&quot;:&quot;48a1f7v8s0ihv58d6qcp34u5st&quot;,&quot;Username&quot;:&quot;pegasusapiseller@gmail.com&quot;,&quot;Password&quot;:&quot;Test@1234&quot;,&quot;UserAttributes&quot;:[{&quot;Name&quot;:&quot;email&quot;,&quot;Value&quot;:&quot;pegasusapiseller@gmail.com&quot;},{&quot;Name&quot;:&quot;custom:companyType&quot;,&quot;Value&quot;:&quot;s&quot;}],&quot;ValidationData&quot;:null}
+
+16:09:25.767 response time in milliseconds: 558
+1 &lt; 200
+1 &lt; Date: Tue, 05 Apr 2022 08:09:25 GMT
+1 &lt; Content-Type: application/x-amz-json-1.1
+1 &lt; Content-Length: 171
+1 &lt; Connection: keep-alive
+1 &lt; x-amzn-RequestId: c03539fe-5979-403a-b36e-6e3d4ef14709
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+{&quot;CodeDeliveryDetails&quot;:{&quot;AttributeName&quot;:&quot;email&quot;,&quot;DeliveryMedium&quot;:&quot;EMAIL&quot;,&quot;Destination&quot;:&quot;p***@g***&quot;},&quot;UserConfirmed&quot;:false,&quot;UserSub&quot;:&quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.22">16:09:25.771 [print] {
+  &quot;CodeDeliveryDetails&quot;: {
+    &quot;AttributeName&quot;: &quot;email&quot;,
+    &quot;DeliveryMedium&quot;: &quot;EMAIL&quot;,
+    &quot;Destination&quot;: &quot;p***@g***&quot;
+  },
+  &quot;UserConfirmed&quot;: false,
+  &quot;UserSub&quot;: &quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-Target = &quot;AWSCognitoIdentityProviderService.ConfirmSignUp&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Host = &quot;cognito-idp.ap-southeast-1.amazonaws.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-User-Agent = &quot;aws-amplify/5.0.4 js&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/x-amz-json-1.1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Origin = &quot;https://qa.dealcierge.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Referer = &quot;https://qa.dealcierge.io/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EMAIL_OTP = userAuthLib.getEmailAuthCode(USERNAME,compType)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4457</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ConfirmSignUp = read(&#39;classpath:/JSON/PROVIDER_SERVICE_CONFIRM_SIGNUP.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print ConfirmSignUp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.31">16:09:30.238 [print] {
+  &quot;ClientId&quot;: &quot;48a1f7v8s0ihv58d6qcp34u5st&quot;,
+  &quot;ConfirmationCode&quot;: &quot;811832&quot;,
+  &quot;Username&quot;: &quot;pegasusapiseller@gmail.com&quot;,
+  &quot;ForceAliasCreation&quot;: true
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request ConfirmSignUp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">175</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.33">16:09:30.240 request:
+2 &gt; POST https://cognito-idp.ap-southeast-1.amazonaws.com
+2 &gt; X-Amz-Target: AWSCognitoIdentityProviderService.ConfirmSignUp
+2 &gt; Host: cognito-idp.ap-southeast-1.amazonaws.com
+2 &gt; X-Amz-User-Agent: aws-amplify/5.0.4 js
+2 &gt; Content-Type: application/x-amz-json-1.1; charset=UTF-8
+2 &gt; Origin: https://qa.dealcierge.io
+2 &gt; Referer: https://qa.dealcierge.io/
+2 &gt; Content-Length: 135
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;ClientId&quot;:&quot;48a1f7v8s0ihv58d6qcp34u5st&quot;,&quot;ConfirmationCode&quot;:&quot;811832&quot;,&quot;Username&quot;:&quot;pegasusapiseller@gmail.com&quot;,&quot;ForceAliasCreation&quot;:true}
+
+16:09:30.413 response time in milliseconds: 172
+2 &lt; 200
+2 &lt; Date: Tue, 05 Apr 2022 08:09:30 GMT
+2 &lt; Content-Type: application/x-amz-json-1.1
+2 &lt; Content-Length: 2
+2 &lt; Connection: keep-alive
+2 &lt; x-amzn-RequestId: 12f9aa91-690f-4b6a-98df-b98e871b445a
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+{}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.34">16:09:30.439 [print] {
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-Target = &quot;AWSCognitoIdentityProviderService.InitiateAuth&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Host = &quot;cognito-idp.ap-southeast-1.amazonaws.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-User-Agent = &quot;aws-amplify/5.0.4 js&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/x-amz-json-1.1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Origin = &quot;https://qa.dealcierge.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Referer = &quot;https://qa.dealcierge.io/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def InitiateAuth = read(&#39;classpath:/JSON/PROVIDER_SERVICE_INITIATE_AUTH.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request InitiateAuth</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">396</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.43">16:09:30.474 request:
+3 &gt; POST https://cognito-idp.ap-southeast-1.amazonaws.com
+3 &gt; X-Amz-Target: AWSCognitoIdentityProviderService.InitiateAuth
+3 &gt; Host: cognito-idp.ap-southeast-1.amazonaws.com
+3 &gt; X-Amz-User-Agent: aws-amplify/5.0.4 js
+3 &gt; Content-Type: application/x-amz-json-1.1; charset=UTF-8
+3 &gt; Origin: https://qa.dealcierge.io
+3 &gt; Referer: https://qa.dealcierge.io/
+3 &gt; Content-Length: 175
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;AuthFlow&quot;:&quot;USER_PASSWORD_AUTH&quot;,&quot;ClientId&quot;:&quot;48a1f7v8s0ihv58d6qcp34u5st&quot;,&quot;AuthParameters&quot;:{&quot;USERNAME&quot;:&quot;pegasusapiseller@gmail.com&quot;,&quot;PASSWORD&quot;:&quot;Test@1234&quot;},&quot;ClientMetadata&quot;:{}}
+
+16:09:30.868 response time in milliseconds: 394
+3 &lt; 200
+3 &lt; Date: Tue, 05 Apr 2022 08:09:30 GMT
+3 &lt; Content-Type: application/x-amz-json-1.1
+3 &lt; Content-Length: 4172
+3 &lt; Connection: keep-alive
+3 &lt; x-amzn-RequestId: 1d6c4bef-c53e-4a2c-b339-818e1fa0cbb7
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+{&quot;AuthenticationResult&quot;:{&quot;AccessToken&quot;:&quot;eyJraWQiOiI5TXFBS1E3SFIyVG42M21ualJvSjZZVEtmVUJrNjZcLzllTzNuU1B5QVhzbz0iLCJhbGciOiJSUzI1NiJ9.eyJvcmlnaW5fanRpIjoiNjhkZGZlMjktM2M3Yy00ZGRjLWI1YzgtY2UyNDEwYjI4ZGFlIiwic3ViIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjQ5MTQ2MTcwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTFfeVdXZHltM1Q5IiwiZXhwIjoxNjQ5MTUzMzcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6ImRkODhlZWUwLWQ1OGQtNDAxZC04ODgyLTI1YzNmYzNkOWI2NiIsImNsaWVudF9pZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwidXNlcm5hbWUiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEifQ.vzWn6ezuZ75htWd20snnUPp0H6dpQys5SuceJ0vCBywWkZHexe9cXWZ3ZdM24q1AgPGNWTG4AMtlCx46nJGzcVWwm9k1hCUgvXTTDcVLdiyMqytPwk34Py41AfeB-L1qC_Q-5jP-wInDLkPbAZjDl20YX5hoP2Kkg5hmNapRfPjuX_gY4olTXlA1OHcnmM5LpVNJvVEjeTg4-sjbex8rDdFxN5X2C_SnG_9Ml20sq9hMfl7S83R3aY_iZQnZVn0HJWk6YJ9UTRSODwMTJ70ExvrR32lm10aNU2S4Wm9JNvJx38uVLYIEXCE5QoQyPRcknDxVbXlwHrQse6K9KxXFKw&quot;,&quot;ExpiresIn&quot;:7200,&quot;IdToken&quot;:&quot;eyJraWQiOiJIZGQzTnlPZk44cnVEV0JQVVdLYm0yMUV1ZnpNaWU2enRyZit3OHVmUFJRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3VzdG9tOmNvbXBhbnlUeXBlIjoicyIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aGVhc3QtMV95V1dkeW0zVDkiLCJjb2duaXRvOnVzZXJuYW1lIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwib3JpZ2luX2p0aSI6IjY4ZGRmZTI5LTNjN2MtNGRkYy1iNWM4LWNlMjQxMGIyOGRhZSIsImF1ZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTY0OTE0NjE3MCwiZXhwIjoxNjQ5MTQ2NDcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6IjEwYzA5MTIwLTZlYWItNGRjOS1hYThlLWRiZDNmOTNmN2U4MyIsImVtYWlsIjoicGVnYXN1c2FwaXNlbGxlckBnbWFpbC5jb20ifQ.S3APD4ETS9OETG7hxlzGc41die8S5hTMXQT4lQi_7_yFEDpSgbpGVmiy9IEZCUOT9I1W9EXXqN-hc5gMPzaMKECsgtmvJnVqV4EMAru09GN-7afaPl6heW1o5GoHj93ko82lg4WFtEF5IM1KykgU2wGEVwSs4O_mtlS80bipvXRCZJP0kNkS86a0bmn56fAgo8ddMGFzrZ_--DdaNXy6MsJJ1NCF3DDfwI0DrWkG9Svvi3HZxccAtNYcqv-nnxe48NrR2J3DA8FiwgbvwLYNO9KhLSe9kWmbQ-9k0Def8j1JlEj5fbdpJYjK9R20McjjIN7zMsJAcTpzh6jiK9HlEQ&quot;,&quot;RefreshToken&quot;:&quot;eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.O5fPjWuiJGTc7av5wn9tVzLQA6UO-h5a2E8P-wVUJJck0Q9ggqu0_R8YGHjuKZ3JYQs1L8DEAevn75dh8yiopxOfy5KC5yV-ems3mqY9snIBDWU-Mo_srba4ylFZDgBpVVRFldW-etPDJA3ll6zs2oJNXcYTOX_TFBdA5o1KkIzHJzn_Cr1qdfb2yliHIZGb5AzriCNbLPR792sGYTzJIyY-A5qeBmAk98ERb8ZbSCFCgFkckXhiUHOLQZc1wCX0EwI83WCXpHIW8jqF9YTRpu2vA_GC89PJ7ce8nqKHMQUQzIijoqv5-W3k8yzbnlQ1Yoh1-TC6EYCK69z0B2lu4A.m46VPos6Y0F1IBTp.9wpDCcUBBHOZ2TSuuwuy4ggN8-ehVtgXn0Ca25aWL_Dte97E6nRHx5z4n_Q9dR9XTSgzkA_7cYtHd6aTjQt1hCY2D4AfIYWUUzjVK2aj8iELk0k7GPsyX0cc0xG1-Gh8Ptpe4C06HRx4d_cHSKeg8GXMNfrazg-w9KUSavukqbdcR5oqVI3mKMNTK3L2ViGtgJLN9Bw5FWB2DaYfgrSz0isd_mln7GliXnsV5p4_6vlHDJT7bUKL0hcAimcon-xoe7-JFgJuP5avbtXZbAoCkNmrJsPBrbCoCbzIoxKQjKJraWe8OkYOO75e-ajWnD9hFxQKqAJqB2yvufyGJGJOS9G7AJSmtf3N7TBcK0yEqpxY3OVmy7PrIy0I6ZE4fYgHGdmUEZHbc--wllJA9hLu_u9r-b_7iuCn2Dld8C-MMBq3sRm343--2gnL1a-frk8oIeLlh2oyPN0N5I0y4Xut-vQAOEjiPpEqVpIGAjvu3rxh4oSGnvGdcgveQmp9xK2IH-HATeArMf7eoB1k-u09IZilU1hkDR0KV4au2c8ipTQV1rx5ID17Y66cL1xGEViEmf35S3S5eVckaIUu7MQx70ydtpZQZs8Jw2oKw9gZQGfvjgLzMmvHRu-TZEcvH4r2x8LFyR-yYjd5ApvwoTUZTGCP___5Ta79fXy5u8RXzzG6bTUUh9rsCRGQxgU8w3kl1ZpvBYc39sntevjvNHsIcXPIZXk-oQQtJX6FMftm2ys9KkiBg_iKqzCmgNVhe0OZTfSPzPD1OVrZO9H7dc9pIl5RVPH6-Ffuw9bE_oYDHZghaoIUAqZwEyoK149TPy2o17Oj8fD1h0IKBnBoZNiQfOTFyXhrfFiW1MwKIOQP2sBt22YmjbmmCZ1M1PtQ_eABDFmEN8ltlLb7Uqn2nVJhg28B8rmtQHxBQEz-RUvNyo6npOa-N3sEmqnf1RZidjZuCCssxhUagCnnye7Iw1ynjpJm2W-PBd44w0LWDR3vxPbvzqDVvrx3JG63ygoIhdvSL0Z4az3N0UNOz8f1vubXr8jyHUe-kciYoKQVIBwEwDhl4cP5AGGUuzkYxgKUkKEyWTnaBr3XWOR4NOvXy0-3JhbPDeqt99HoE-TlnUMVdcP3tAr2HzJlfK4OCKm1qxFti-DRwD7QqbXqZOdt9WtznRGdrOGMR0n1nsAcJIq_e24wkR1069tZGi4-QDxhMMaIKp-IbX6Dfg8RFVW-RhKjd_JXqW0ygQk3w_HPZmXDxMMULbLMyDfVbp3vr2jVDR1gRCR8uo13qVjnpmxFFwbbKKA1ybUF3RkWYyqSOiJHbUqQaiKco3ZexE_rcjrGrG_XsFlt4cgiwWvjAJbFXw.z1xdUE-HDNvwgTjctslvaQ&quot;,&quot;TokenType&quot;:&quot;Bearer&quot;},&quot;ChallengeParameters&quot;:{}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.44">16:09:30.870 [print] {
+  &quot;AuthenticationResult&quot;: {
+    &quot;AccessToken&quot;: &quot;eyJraWQiOiI5TXFBS1E3SFIyVG42M21ualJvSjZZVEtmVUJrNjZcLzllTzNuU1B5QVhzbz0iLCJhbGciOiJSUzI1NiJ9.eyJvcmlnaW5fanRpIjoiNjhkZGZlMjktM2M3Yy00ZGRjLWI1YzgtY2UyNDEwYjI4ZGFlIiwic3ViIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjQ5MTQ2MTcwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTFfeVdXZHltM1Q5IiwiZXhwIjoxNjQ5MTUzMzcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6ImRkODhlZWUwLWQ1OGQtNDAxZC04ODgyLTI1YzNmYzNkOWI2NiIsImNsaWVudF9pZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwidXNlcm5hbWUiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEifQ.vzWn6ezuZ75htWd20snnUPp0H6dpQys5SuceJ0vCBywWkZHexe9cXWZ3ZdM24q1AgPGNWTG4AMtlCx46nJGzcVWwm9k1hCUgvXTTDcVLdiyMqytPwk34Py41AfeB-L1qC_Q-5jP-wInDLkPbAZjDl20YX5hoP2Kkg5hmNapRfPjuX_gY4olTXlA1OHcnmM5LpVNJvVEjeTg4-sjbex8rDdFxN5X2C_SnG_9Ml20sq9hMfl7S83R3aY_iZQnZVn0HJWk6YJ9UTRSODwMTJ70ExvrR32lm10aNU2S4Wm9JNvJx38uVLYIEXCE5QoQyPRcknDxVbXlwHrQse6K9KxXFKw&quot;,
+    &quot;ExpiresIn&quot;: 7200,
+    &quot;IdToken&quot;: &quot;eyJraWQiOiJIZGQzTnlPZk44cnVEV0JQVVdLYm0yMUV1ZnpNaWU2enRyZit3OHVmUFJRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3VzdG9tOmNvbXBhbnlUeXBlIjoicyIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aGVhc3QtMV95V1dkeW0zVDkiLCJjb2duaXRvOnVzZXJuYW1lIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwib3JpZ2luX2p0aSI6IjY4ZGRmZTI5LTNjN2MtNGRkYy1iNWM4LWNlMjQxMGIyOGRhZSIsImF1ZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTY0OTE0NjE3MCwiZXhwIjoxNjQ5MTQ2NDcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6IjEwYzA5MTIwLTZlYWItNGRjOS1hYThlLWRiZDNmOTNmN2U4MyIsImVtYWlsIjoicGVnYXN1c2FwaXNlbGxlckBnbWFpbC5jb20ifQ.S3APD4ETS9OETG7hxlzGc41die8S5hTMXQT4lQi_7_yFEDpSgbpGVmiy9IEZCUOT9I1W9EXXqN-hc5gMPzaMKECsgtmvJnVqV4EMAru09GN-7afaPl6heW1o5GoHj93ko82lg4WFtEF5IM1KykgU2wGEVwSs4O_mtlS80bipvXRCZJP0kNkS86a0bmn56fAgo8ddMGFzrZ_--DdaNXy6MsJJ1NCF3DDfwI0DrWkG9Svvi3HZxccAtNYcqv-nnxe48NrR2J3DA8FiwgbvwLYNO9KhLSe9kWmbQ-9k0Def8j1JlEj5fbdpJYjK9R20McjjIN7zMsJAcTpzh6jiK9HlEQ&quot;,
+    &quot;RefreshToken&quot;: &quot;eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.O5fPjWuiJGTc7av5wn9tVzLQA6UO-h5a2E8P-wVUJJck0Q9ggqu0_R8YGHjuKZ3JYQs1L8DEAevn75dh8yiopxOfy5KC5yV-ems3mqY9snIBDWU-Mo_srba4ylFZDgBpVVRFldW-etPDJA3ll6zs2oJNXcYTOX_TFBdA5o1KkIzHJzn_Cr1qdfb2yliHIZGb5AzriCNbLPR792sGYTzJIyY-A5qeBmAk98ERb8ZbSCFCgFkckXhiUHOLQZc1wCX0EwI83WCXpHIW8jqF9YTRpu2vA_GC89PJ7ce8nqKHMQUQzIijoqv5-W3k8yzbnlQ1Yoh1-TC6EYCK69z0B2lu4A.m46VPos6Y0F1IBTp.9wpDCcUBBHOZ2TSuuwuy4ggN8-ehVtgXn0Ca25aWL_Dte97E6nRHx5z4n_Q9dR9XTSgzkA_7cYtHd6aTjQt1hCY2D4AfIYWUUzjVK2aj8iELk0k7GPsyX0cc0xG1-Gh8Ptpe4C06HRx4d_cHSKeg8GXMNfrazg-w9KUSavukqbdcR5oqVI3mKMNTK3L2ViGtgJLN9Bw5FWB2DaYfgrSz0isd_mln7GliXnsV5p4_6vlHDJT7bUKL0hcAimcon-xoe7-JFgJuP5avbtXZbAoCkNmrJsPBrbCoCbzIoxKQjKJraWe8OkYOO75e-ajWnD9hFxQKqAJqB2yvufyGJGJOS9G7AJSmtf3N7TBcK0yEqpxY3OVmy7PrIy0I6ZE4fYgHGdmUEZHbc--wllJA9hLu_u9r-b_7iuCn2Dld8C-MMBq3sRm343--2gnL1a-frk8oIeLlh2oyPN0N5I0y4Xut-vQAOEjiPpEqVpIGAjvu3rxh4oSGnvGdcgveQmp9xK2IH-HATeArMf7eoB1k-u09IZilU1hkDR0KV4au2c8ipTQV1rx5ID17Y66cL1xGEViEmf35S3S5eVckaIUu7MQx70ydtpZQZs8Jw2oKw9gZQGfvjgLzMmvHRu-TZEcvH4r2x8LFyR-yYjd5ApvwoTUZTGCP___5Ta79fXy5u8RXzzG6bTUUh9rsCRGQxgU8w3kl1ZpvBYc39sntevjvNHsIcXPIZXk-oQQtJX6FMftm2ys9KkiBg_iKqzCmgNVhe0OZTfSPzPD1OVrZO9H7dc9pIl5RVPH6-Ffuw9bE_oYDHZghaoIUAqZwEyoK149TPy2o17Oj8fD1h0IKBnBoZNiQfOTFyXhrfFiW1MwKIOQP2sBt22YmjbmmCZ1M1PtQ_eABDFmEN8ltlLb7Uqn2nVJhg28B8rmtQHxBQEz-RUvNyo6npOa-N3sEmqnf1RZidjZuCCssxhUagCnnye7Iw1ynjpJm2W-PBd44w0LWDR3vxPbvzqDVvrx3JG63ygoIhdvSL0Z4az3N0UNOz8f1vubXr8jyHUe-kciYoKQVIBwEwDhl4cP5AGGUuzkYxgKUkKEyWTnaBr3XWOR4NOvXy0-3JhbPDeqt99HoE-TlnUMVdcP3tAr2HzJlfK4OCKm1qxFti-DRwD7QqbXqZOdt9WtznRGdrOGMR0n1nsAcJIq_e24wkR1069tZGi4-QDxhMMaIKp-IbX6Dfg8RFVW-RhKjd_JXqW0ygQk3w_HPZmXDxMMULbLMyDfVbp3vr2jVDR1gRCR8uo13qVjnpmxFFwbbKKA1ybUF3RkWYyqSOiJHbUqQaiKco3ZexE_rcjrGrG_XsFlt4cgiwWvjAJbFXw.z1xdUE-HDNvwgTjctslvaQ&quot;,
+    &quot;TokenType&quot;: &quot;Bearer&quot;
+  },
+  &quot;ChallengeParameters&quot;: {
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response.AuthenticationResult.AccessToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.45">16:09:30.871 [print] eyJraWQiOiI5TXFBS1E3SFIyVG42M21ualJvSjZZVEtmVUJrNjZcLzllTzNuU1B5QVhzbz0iLCJhbGciOiJSUzI1NiJ9.eyJvcmlnaW5fanRpIjoiNjhkZGZlMjktM2M3Yy00ZGRjLWI1YzgtY2UyNDEwYjI4ZGFlIiwic3ViIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjQ5MTQ2MTcwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTFfeVdXZHltM1Q5IiwiZXhwIjoxNjQ5MTUzMzcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6ImRkODhlZWUwLWQ1OGQtNDAxZC04ODgyLTI1YzNmYzNkOWI2NiIsImNsaWVudF9pZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwidXNlcm5hbWUiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEifQ.vzWn6ezuZ75htWd20snnUPp0H6dpQys5SuceJ0vCBywWkZHexe9cXWZ3ZdM24q1AgPGNWTG4AMtlCx46nJGzcVWwm9k1hCUgvXTTDcVLdiyMqytPwk34Py41AfeB-L1qC_Q-5jP-wInDLkPbAZjDl20YX5hoP2Kkg5hmNapRfPjuX_gY4olTXlA1OHcnmM5LpVNJvVEjeTg4-sjbex8rDdFxN5X2C_SnG_9Ml20sq9hMfl7S83R3aY_iZQnZVn0HJWk6YJ9UTRSODwMTJ70ExvrR32lm10aNU2S4Wm9JNvJx38uVLYIEXCE5QoQyPRcknDxVbXlwHrQse6K9KxXFKw 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def accesstoken = response.AuthenticationResult.AccessToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-Target = &quot;AWSCognitoIdentityProviderService.GetUser&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Host = &quot;cognito-idp.ap-southeast-1.amazonaws.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.49">
+      <div class="step-ref passed">49</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header X-Amz-User-Agent = &quot;aws-amplify/5.0.4 js&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &quot;application/x-amz-json-1.1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Origin = &quot;https://qa.dealcierge.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Referer = &quot;https://qa.dealcierge.io/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def GetUser = read(&#39;classpath:/JSON/PROVIDER_SERRVICE_GETUSER.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">24</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request GetUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">177</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.55">16:09:30.898 request:
+4 &gt; POST https://cognito-idp.ap-southeast-1.amazonaws.com
+4 &gt; X-Amz-Target: AWSCognitoIdentityProviderService.GetUser
+4 &gt; Host: cognito-idp.ap-southeast-1.amazonaws.com
+4 &gt; X-Amz-User-Agent: aws-amplify/5.0.4 js
+4 &gt; Content-Type: application/x-amz-json-1.1; charset=UTF-8
+4 &gt; Origin: https://qa.dealcierge.io
+4 &gt; Referer: https://qa.dealcierge.io/
+4 &gt; Content-Length: 1104
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+4 &gt; Accept-Encoding: gzip,deflate
+{&quot;AccessToken&quot;:&quot;eyJraWQiOiI5TXFBS1E3SFIyVG42M21ualJvSjZZVEtmVUJrNjZcLzllTzNuU1B5QVhzbz0iLCJhbGciOiJSUzI1NiJ9.eyJvcmlnaW5fanRpIjoiNjhkZGZlMjktM2M3Yy00ZGRjLWI1YzgtY2UyNDEwYjI4ZGFlIiwic3ViIjoiMDU1NzMyZDktZjJhNC00ODUyLTllYjgtZjRhMGZlNjFlOTZhIiwiZXZlbnRfaWQiOiIxZDZjNGJlZi1jNTNlLTRhMmMtYjMzOS04MThlMWZhMGNiYjciLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjQ5MTQ2MTcwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTFfeVdXZHltM1Q5IiwiZXhwIjoxNjQ5MTUzMzcwLCJpYXQiOjE2NDkxNDYxNzAsImp0aSI6ImRkODhlZWUwLWQ1OGQtNDAxZC04ODgyLTI1YzNmYzNkOWI2NiIsImNsaWVudF9pZCI6IjQ4YTFmN3Y4czBpaHY1OGQ2cWNwMzR1NXN0IiwidXNlcm5hbWUiOiIwNTU3MzJkOS1mMmE0LTQ4NTItOWViOC1mNGEwZmU2MWU5NmEifQ.vzWn6ezuZ75htWd20snnUPp0H6dpQys5SuceJ0vCBywWkZHexe9cXWZ3ZdM24q1AgPGNWTG4AMtlCx46nJGzcVWwm9k1hCUgvXTTDcVLdiyMqytPwk34Py41AfeB-L1qC_Q-5jP-wInDLkPbAZjDl20YX5hoP2Kkg5hmNapRfPjuX_gY4olTXlA1OHcnmM5LpVNJvVEjeTg4-sjbex8rDdFxN5X2C_SnG_9Ml20sq9hMfl7S83R3aY_iZQnZVn0HJWk6YJ9UTRSODwMTJ70ExvrR32lm10aNU2S4Wm9JNvJx38uVLYIEXCE5QoQyPRcknDxVbXlwHrQse6K9KxXFKw&quot;}
+
+16:09:31.073 response time in milliseconds: 175
+4 &lt; 200
+4 &lt; Date: Tue, 05 Apr 2022 08:09:31 GMT
+4 &lt; Content-Type: application/x-amz-json-1.1
+4 &lt; Content-Length: 269
+4 &lt; Connection: keep-alive
+4 &lt; x-amzn-RequestId: ca8718fa-7282-46d8-9037-5058ba39f9cb
+4 &lt; Access-Control-Allow-Origin: *
+4 &lt; Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+{&quot;UserAttributes&quot;:[{&quot;Name&quot;:&quot;sub&quot;,&quot;Value&quot;:&quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;},{&quot;Name&quot;:&quot;email_verified&quot;,&quot;Value&quot;:&quot;true&quot;},{&quot;Name&quot;:&quot;custom:companyType&quot;,&quot;Value&quot;:&quot;s&quot;},{&quot;Name&quot;:&quot;email&quot;,&quot;Value&quot;:&quot;pegasusapiseller@gmail.com&quot;}],&quot;Username&quot;:&quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.56">16:09:31.074 [print] {
+  &quot;UserAttributes&quot;: [
+    {
+      &quot;Name&quot;: &quot;sub&quot;,
+      &quot;Value&quot;: &quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;email_verified&quot;,
+      &quot;Value&quot;: &quot;true&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;custom:companyType&quot;,
+      &quot;Value&quot;: &quot;s&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;email&quot;,
+      &quot;Value&quot;: &quot;pegasusapiseller@gmail.com&quot;
+    }
+  ],
+  &quot;Username&quot;: &quot;055732d9-f2a4-4852-9eb8-f4a0fe61e96a&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

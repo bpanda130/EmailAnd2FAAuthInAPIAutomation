@@ -1,0 +1,16 @@
+{
+  "ClientId": "48a1f7v8s0ihv58d6qcp34u5st",
+  "Username": "#(USERNAME)",
+  "Password": "#(PASSWORD)",
+  "UserAttributes": [
+    {
+      "Name": "email",
+      "Value": "#(USERNAME)"
+    },
+    {
+      "Name": "custom:companyType",
+      "Value": "#(COMPANY_TYPE)"
+    }
+  ],
+  "ValidationData": null
+}
